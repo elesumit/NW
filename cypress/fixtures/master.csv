@@ -1,0 +1,3 @@
+Scenario,specname,execution,csvtype
+val Quote ret,personalInsurance,yes,personalInsurance_insurance.csv
+val link,personalInsurance,yes,personalInsurance_link.csv
