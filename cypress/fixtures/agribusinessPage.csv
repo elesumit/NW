@@ -1,0 +1,8 @@
+Scenario,execution,links,expectedtext,newTab,elementText
+Validate farm agent link,yes,find a farm agent,Protect your next,yes,Protect your next
+Validate Get a quote link,yes,Get a quote, Smart. This is the fast track. Let’s get started ,yes,Get a quote
+Validate financial product link,no,Financial products,Protect your family with solutions from Nationwide,no,Financial products
+Validate Farm succession planning link,no,Farm succession planning,A holistic approach to financial and legacy planning,no,Farm succession planning
+Validate find a specialist link,no,find a specialist,Making it easier to navigate life,no,find a specialist
+Validate Related topics & resources links,no,find a specialist,Making it easier to navigate life,no,find a specialist
+Validate What we offer link,no,What we offer,Annual farm insurance review,no,

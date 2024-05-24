@@ -1,0 +1,5 @@
+Scenario,execution,links,expectedtext,condition,elementText
+Validate Vichele Auto link,yes,Auto,Car insurance,DirectLink3,Auto
+Validate On Your Side® Review tile link,yes,On Your Side® Review,Stay protected with Nationwide’s On Your Side® Review,ContainsTextLink,On Your Side® Review
+
+

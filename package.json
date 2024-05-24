@@ -1,0 +1,37 @@
+{
+  "name": "autocypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:POC-Chrome": "node runAndReport.js html",
+    "cy:POC-Chrome-Excel": "node runAndReport.js excel",
+    "cy:prodregression-Chrome": "cypress run --headed  --spec cypress/e2e/reg-specs-tobeexecuted/*.js --browser chrome",
+    "cy:prodregression-Webkit": "cypress run --headed  --spec cypress/e2e/reg-specs-tobeexecuted/*.js --browser webkit",
+    "cy:prodregression-Edge": "cypress run --headed  --spec cypress/e2e/reg-specs-tobeexecuted/*.js --browser edge",
+    "cy:run": "cypress run --headed  --spec cypress/e2e/brokenLinksHealthCheck/allProductsUpdated.cy.js --browser chrome",
+    "cy:regression": "cypress run --headed  --spec cypress/e2e/2-advanced-examples/RegressionTest_AccessibilityTest.cy.js --browser chrome",
+    "cy:report": "npm run cy:run -- --reporter mochawesome --reporter-options reportDir=cypress/results,overwrite=false,html=true,timestamp=mmddyyyy_HHMMss",
+    "cypress:open:dev": "CYPRESS_ENV=dev cypress open --config-file cypress.dev.json",
+    "cypress:open:uat": "CYPRESS_ENV=staging cypress open --config-file cypress.uat.json",
+    "cypress:open:prod": "CYPRESS_ENV=prod cypress open --config-file cypress.prod.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "axe-core": "^4.8.3",
+    "cypress": "^12.17.4",
+    "cypress-axe": "^1.5.0",
+    "cypress-mochawesome-reporter": "^3.8.0",
+    "cypress-xpath": "^2.0.1",
+    "neat-csv": "^5.2.0",
+    "playwright-webkit": "1.34"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "exceljs": "^4.4.0",
+    "fs": "^0.0.1-security",
+    "papaparse": "^5.4.1"
+  }
+}

@@ -1,0 +1,3 @@
+Scenario,execution,links,expectedtext,newTab,elementText
+Validate talk to a specialist link,yes,talk to a specialist,Find a financial specialist,no,talk to a specialist
+Validate as a financial professional link,yes,as a financial professional,Nationwide Mutual Funds,yes,as a financial professional

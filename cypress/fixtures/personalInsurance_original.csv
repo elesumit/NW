@@ -1,0 +1,9 @@
+execution,insuranceType,prop_zipcode,prop_startquote,zipCode,expected_Result
+yes,Homeowners insurance,homeownersWarning,HomeownersQuoteForm,32771,Find an Agency Near You
+yes,Renters insurance,rentersWarning,RentersQuoteForm,32771,Find an Agency Near You
+yes,Auto insurance,autoWarning,AutoQuoteForm,32771, Smart. This is the fast track.
+no,Life insurance,,,,Get a No Exam Term Life Insurance Quote
+yes,Condo insurance,condoWarning,CondoQuoteForm,32771,Find an Agency Near You
+yes,Motorcycle insurance,motorcycleWarning,MotorcycleQuoteForm,32771,We have an insurance partner in your state
+no,Pet insurance,,,,Tell us about your pet.
+yes,Auto & home bundle,autohomewarning,AutoAndHomeQuoteForm,32771, Smart. This is the fast track.

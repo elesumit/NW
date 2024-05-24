@@ -1,0 +1,8 @@
+Scenario,execution,links,expectedtext,newTab,elementText
+Validate Get a quote link,no,Get a quote, Smart. This is the fast track. Let’s get started ,yes,Get a quote
+Validate your agent link,yes,your agent,Find local Nationwide Insurance Agencies near you,yes,your agent
+Validate Miles driven tile link,yes,Miles driven,Miles driven video,yes,Miles driven
+Validate Hard braking tile link,no,Hard braking,Miles driven video,no,Hard braking
+Validate Fast Acceleration tile link,no,Fast Acceleration,Miles driven video,no,Fast Acceleration
+Validate Nighttime driving tile link,yes,Nighttime driving,Nighttime driving video,yes,Nighttime driving
+Validate Learn more link,yes,Learn more,Learn how you may have already earned the SmartRide safe driving discount,no,Learn more

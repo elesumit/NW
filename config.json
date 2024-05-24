@@ -1,0 +1,40 @@
+{
+  "environments": {
+    "baseURL": "https://uat.nationwide.com",
+
+    
+      "landingPage": "",
+      "accLogin": "account-login",
+      "business": "business",
+      "billPay": "bill-pay",
+      "personalClaims": "personal/insurance/claims",
+      "personalContact": "personal/contact/",
+      "personalInsurance": "personal/insurance/",
+      "personalAuto": "personal/insurance/auto/",
+      "powersports": "lc/resources/powersports/",
+      "quoteRetrieval": "business/insurance/quote/retrieve",
+      "pricingandperformance": "personal/investing/mutual-funds/pricing-and-performance/",
+      "prospectusesFundDocumentsPage": "personal/investing/mutual-funds/prospectuses-fund-documents/",
+      "nvitMutualFund": "personal/investing/mutual-funds/nvit-funds/",
+      "annuities": "personal/investing/annuities/",
+      "sem": "sem/brand-b3-pey.html",
+      "contact": "personal/contact/",
+      "personalSearch": "searchresults/personal/result?=&referrerPageUrl=&query=",
+      "fundList": "personal/investing/mutual-funds/fund-list/",
+      "retirementPlans": "personal/investing/retirement-plans/",
+      "buyerGuide": "personal/investing/annuities/buyers-guides/",
+      "annualReport": "cps/annual-report/index.html",
+      "smartRide": "personal/insurance/auto/discounts/smartride/",
+      "animalSafety": "lc/resources/home/articles/animal-safety",
+      "learningCenter": "lc/resources/",
+      "agribusiness": "business/agribusiness/farm-bureau/delaware.html",
+      "search": "searchresults/personal/result?query=insurance",
+      "businessInsurance": "business/insurance/"
+
+    
+  },
+
+  "viewPorts": {
+    "windowsDefault": "width: 1280, height: 1000"
+  }
+}

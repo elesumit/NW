@@ -1,0 +1,6 @@
+Scenario,execution,links,elementtext,zip,expectetext,
+Validate links on sem page,yes,Auto & Property:Auto:Homeowners:Renter:Business:Life:Motorcycle:Condo:Pet:Travel:ATV:Scooter:Snowmobile:Classic car:RV:Boat:Personal watercraft:Umbrella:ID theft:Dental,,,,
+Validate Quote generation on sem page,no,Auto & Property,AutoAndHomeQuoteForm,32771,Smart. This is the fast track. Let’s get started,
+Validate links on sem page,yes,Pay a bill,,,How would you like to pay us?
+Validate links on sem page,yes,Get ID card,,,Get your auto ID card
+Validate links on sem page,yes,Log in / Sign up,,,Log in to your account

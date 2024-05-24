@@ -1,0 +1,8 @@
+Scenario,execution,links,expectedtext,newTab,elementText
+Validate login link,yes,log in,Login for Insurance & Investments,no,log in
+Validate talk to a specialist link,yes,talk to a specialist,Find a financial specialist,no,talk to a specialist
+Validate Variable tile link,yes,Variable,Variable annuities,yes,Variable
+Validate Registered index-linked tile link,yes,Registered index-linked,Registered index-linked annuities,yes,Registered index-linked
+Validate Fixed indexed tile link,yes,Fixed indexed,Fixed indexed annuities,yes,Fixed indexed
+Validate Fixed tile link,yes,Fixed,Fixed annuities,yes,Fixed
+Validate Immediate tile link,yes,Immediate,Immediate annuities,yes,Immediate
