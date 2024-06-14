@@ -150,15 +150,21 @@ class pageControllers {
         cy.contains(expectedText).should('be.visible');
       }
       
-      selectDropdownOption(menu, option) {     
-        return cy.get(`[id="${menu}"]`).select(option);
-    }
+    //   selectDropdownOption(menu, option) {     
+    //     return cy.get(`[id="${menu}"]`).select(option);
+    // }
     
+    selectDropdownOption(menu, option) {
+      cy.log(`Selecting option "${option}" from dropdown with id "${menu}"`);
+      return cy.get(`[id="${menu}"]`).select(option);
+  }
+  
 
     //**** New 5/21 */
     // Generic click function
 clickLink(xpath) {
   cy.xpath(xpath)
+      .scrollIntoView()
       .should('exist')
       .wait(5000) // Adjust timeout as needed
       .should('be.visible')
@@ -167,18 +173,58 @@ clickLink(xpath) {
 };
 
 // Mapping conditions to XPath expressions
-getXPath(condition, linkURL) {
+getXPath(condition, linkText) {
   const xpathMap = {
-      'ParentLink': `(//*[text()="${linkURL}"])[1]//parent::a`,
-      'DirectLink': `(//a[text()="${linkURL}"])[1]`,
-      'ContainsTextLink': `//a[h5[contains(text(), "${linkURL}")]]`,
-      'NormalizeTextLink' : `//a[.//h2[text()="${linkURL}"]]`,
-      'DirectLink2': `(//a[text()="${linkURL}"])[2]`,
-      'DirectLink3': `(//a[text()="${linkURL}"])[3]`,
+      'ParentLink': `(//*[text()="${linkText}"])[1]//parent::a`,
+      'ParentLink2': `(//*[text()="${linkText}"])//parent::a`,
+      'GParentLink': `(//*[text()="${linkText}"])[1]//parent::div/parent::a`,
+      'DirectLink': `(//a[text()="${linkText}"])[1]`,
+      'ContainsTextLink': `//a[h5[contains(text(), "${linkText}")]]`,
+      'TextLink': `//a[h5[text()="${linkText}"]]`,
+      'NormalizeTextLink' : `//a[.//h2[text()="${linkText}"]]`,
+      'DirectLink2': `(//a[text()="${linkText}"])[2]`,
+      'DirectLink3': `(//a[text()="${linkText}"])[3]`,
+      'DirectLink4': `(//a[text()="${linkText}"])[4]`,
+      'DirectLink5': `(//a[text()="${linkText}"])[5]`,
+      'DirectLink19': `(//a[text()="${linkText}"])[19]`,
+      'Button': `(//*[text()="${linkText}"])`,
+      'h5ContainsTextLink': `//a[.//h5[contains(text(), "${linkText}")]]`,
       
   };
   return xpathMap[condition];
 }
+
+//******enter Zipcode */
+enterZip(property,value) {
+  cy.xpath(property).type(value), { force: true };
+};
+
+getZipCode(pageName,property) {
+  const zipCode = {
+      'personalInsurance': `//input[@aria-describedby="${property}"]`,
+      'landingPage' : `//input[@type="${property}"]`,
+    'personalAuto' : `(//*[@id="${property}"]//following::input)[1]`,
+
+  };
+  return zipCode[pageName];
+}
+
+//******click on Quote */
+clickQuote(property) {
+  cy.xpath(property).click();
+};
+
+getQuote(pageName,property) {
+  const quote = {
+      'personalInsurance1': `//div[@id="${property}"]/div/div/button`,
+      'personalInsurance2': `//div[@id="${property}"]/div/div/a`,
+      'landingPage': `//*[@name='Start your quote']`,
+      'personalAuto' : `(//*[@id="${property}"]//following::input)[2]`,
+
+  };
+  return quote[pageName];
+}
+
 
 
     }

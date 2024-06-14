@@ -1,0 +1,4 @@
+pageName,dropdownMenu,insuranceType,zipElement,zipCode,quoteButton,expectedText,getQuoteButtonReference
+landingPage,customSelectQuote,Auto & home bundle,tel,32773,,Smart. This is the fast track. Let’s get started,landingPage
+landingPage,customSelectQuote,Homeowners,tel,32773,,Find an Agency Near You,landingPage
+landingPage,customSelectQuote,Renters,tel,32773,,Find an Agency Near You,landingPage

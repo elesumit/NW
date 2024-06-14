@@ -1,7 +1,12 @@
 {
   "environments": {
-    "baseURL": "https://uat.nationwide.com",
-
+   
+    "PROD": "https://www.nationwide.com",
+    "UAT":"https://uat.nationwide.com",
+   "DEV": "https://devl.nationwide.nwie.net",
+   "STAGING": "https://staging.nationwide.nwie.net",
+   "PT" : "https://pt.nationwide.com",
+    "baseURL" :"https://uat.nationwide.com",
     
       "landingPage": "",
       "accLogin": "account-login",
@@ -11,7 +16,7 @@
       "personalContact": "personal/contact/",
       "personalInsurance": "personal/insurance/",
       "personalAuto": "personal/insurance/auto/",
-      "powersports": "lc/resources/powersports/",
+      "powerSports": "lc/resources/powersports/",
       "quoteRetrieval": "business/insurance/quote/retrieve",
       "pricingandperformance": "personal/investing/mutual-funds/pricing-and-performance/",
       "prospectusesFundDocumentsPage": "personal/investing/mutual-funds/prospectuses-fund-documents/",

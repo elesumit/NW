@@ -68,4 +68,7 @@ async function exportToExcel(results, filePath) {
   console.log(`Results exported to ${filePath}`);
 }
 
+
+
+
 module.exports = { parseCypressOutput, exportToExcel };

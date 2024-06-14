@@ -1,0 +1,4 @@
+Scenario,execution,links,expectedtext,condition,elementText
+Validate  Start your quote link,no,Start your quote, Thanks for choosing Nationwide - Start your quote ,DirectLink,Start your quote
+Validate find a business agent link,yes,Find a business agent,Find local Nationwide Insurance Agencies near you,DirectLink,Find a business agent
+Validate Get a BOP quote link,yes,Get a BOP quote,Property insurance. Liability insurance. Business income insurance.,DirectLink,Get a BOP quote

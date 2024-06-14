@@ -1,0 +1,4 @@
+linkText,expectedText,condition
+Pay a bill,How would you like to pay us?,h5ContainsTextLink
+Get ID card,Get your auto ID card,h5ContainsTextLink
+Log in / Sign up,Log in to your account,h5ContainsTextLink

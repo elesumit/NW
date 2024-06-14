@@ -1,0 +1,16 @@
+linkText,expectedText,condition
+Forgot username/password,Forgot username/password,DirectLink
+Sign up for an online account,Sign up for online access,DirectLink
+Public Employee Retirement (Deferred Compensation),Find your employer’s plan,DirectLink
+Plan Sponsors - Pensions/401(k) plans,Log in to manage your Retirement Plan (401k/403b).,DirectLink
+Mutual Funds,Account Login,DirectLink
+Smart Credit,Log into Your Account,DirectLink
+Pension Administrator,Log into Plan Administration Services,DirectLink
+Agribusiness,Agribusiness Commercial Customer Login,DirectLink
+Pay your personal insurance bill,Welcome to Quick Pay,GParentLink
+File a claim,File an insurance claim,GParentLink
+Get auto ID card,Get your auto ID card,GParentLink
+Watch self-help videos,An online account makes life so much easier,GParentLink
+Pay your commercial insurance bill,Make a payment,GParentLink
+Track a claim,Track Your Claim,GParentLink
+Get a quote for a new vehicle,Quick Add Vehicle,GParentLink

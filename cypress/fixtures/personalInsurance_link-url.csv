@@ -1,0 +1,3 @@
+linkText,expectedUrl,condition
+Auto,https://www.nationwide.com/personal/insurance/auto/,DirectLink3
+On Your Side® Review,https://www.nationwide.com/personal/insurance/policy-reviews/,ContainsTextLink

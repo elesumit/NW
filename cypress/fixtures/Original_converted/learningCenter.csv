@@ -1,0 +1,9 @@
+Scenario,execution,links,expectedtext,condition,elementText
+Validate  Take a tour of our self-help videos. link,yes,Take a tour of our self-help videos.,Set up your account now,DirectLink,Take a tour of our self-help videos.
+Validate Auto tile link,yes,Auto,Auto insurance resources,ContainsTextLink,Auto
+Validate Home tile link,yes,Home,Home insurance resources,ContainsTextLink,Home
+Validate Small business tile link,yes,Small business,Small business insurance resources,ContainsTextLink,Small business
+Validate Beginning your journey tile link,no, Beginning your journey,Beginning your journey,ContainsTextLink, Beginning your journey
+Validate Nurturing your family tile link,no,Nurturing your family,Nurturing your family,ContainsTextLink,Nurturing your family
+Validate Driving safety tips link,yes,Driving safety tips,Driving safety tips every responsible driver should know,DirectLink,Driving safety tips
+Validate Insurance FAQs link,yes,Insurance FAQs,Auto and property insurance FAQ,DirectLink,Insurance FAQs

@@ -23,3 +23,7 @@ import 'cypress-axe';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+
+// for taking snapshots
+//import 'cypress-plugin-snapshots/commands';

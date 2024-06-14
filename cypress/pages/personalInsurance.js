@@ -11,6 +11,11 @@ class personalInsurancePage {
       {    
             return cy.xpath(`//div[@id="${property}"]/div/div/button`).click();
       }
+
+      clickOnQuote1(property)
+      {    
+            return cy.xpath(`//div[@id="${property}"]/div/div/a`).click();
+      }
 }
   
 

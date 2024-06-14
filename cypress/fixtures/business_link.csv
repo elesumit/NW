@@ -1,0 +1,9 @@
+linkText,expectedText,condition
+Start your quote, Select the coverage you need from the options below. You can add more than one, to ensure all your needs are met. ,DirectLink
+Find a business agent,Find an Agency Near You,DirectLink
+Find a farm agent,Protect your next,DirectLink2
+See partner solutions,Unlock the power of savings,DirectLink
+Business solutions center,Browse educational articles by topic,NormalizeTextLink
+Track and monitor commercial fleets,Nationwide Vantage 360 Fleet offers a simple view of your fleet and your drivers,NormalizeTextLink
+Telematics solutions for your farm or agribusiness,Using data and technology to improve efficiency and productivity,NormalizeTextLink
+Member resources,Business Insurance Member Resources,DirectLink

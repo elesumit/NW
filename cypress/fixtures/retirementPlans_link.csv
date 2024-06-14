@@ -1,0 +1,11 @@
+linkText,expectedText,condition
+Enroll in my plan,Sign up for online access,DirectLink
+Sign up, Enter your personal information. ,DirectLink
+Log into your account,Log in to your account,DirectLink
+Financial goals in 2024,Five steps to financial wellness,DirectLink
+yes,Sign up for a webinar,Webinars,DirectLink
+Learn more ,Five steps to financial wellness,DirectLink
+I'm just getting started,Retirement plans,DirectLink
+Learn more ,Five steps to financial wellness,DirectLink
+On-demand webinars,Education on demand,NormalizeTextLink
+Get the iPhone app,This app is available only on the App Store for iPhone and iPad.,DirectLink

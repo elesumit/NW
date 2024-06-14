@@ -1,3 +1,32 @@
-Scenario,specname,execution,csvtype
-val Quote ret,personalInsurance,yes,personalInsurance_insurance.csv
-val link,personalInsurance,yes,personalInsurance_link.csv
+Scenario,baseURL,URLextension,specname,execution,objType,childCsvPath
+Scenario 1,https://www.nationwide.com,personal/insurance/,master,yes,quote,personalInsurance_quote.csv
+Scenario 2,https://www.nationwide.com,personal/insurance/,master,yes,link,personalInsurance_link.csv
+Scenario 3,https://www.nationwide.com,lc/resources/,master,no,link,learningCenter_link.csv
+Scenario 4,https://www.nationwide.com,business/agribusiness/farm-bureau/delaware.html,master,no,link,agribusinessPage_link.csv
+Scenario 5,https://www.nationwide.com,lc/resources/home/articles/animal-safety,master,no,link,animalSafetyPage_link.csv
+Scenario 6,https://www.nationwide.com,personal/investing/retirement-plans/,master,no,link,retirementPlans_link.csv
+Scenario 7,https://www.nationwide.com,personal/insurance/auto/discounts/smartride/,master,no,link,smartRide_link.csv
+Scenario 8,https://www.nationwide.com,cps/annual-report/index.html,master,no,link,annualReport_link.csv
+Scenario 9,https://www.nationwide.com,personal/investing/annuities/,master,no,link,annuities_link.csv
+Scenario 10,https://www.nationwide.com,business/insurance/,master,no,link,businessInsurance_link.csv
+Scenario 11,https://www.nationwide.com,personal/investing/mutual-funds/fund-list/,master,no,link,fundListPage_link.csv
+Scenario 12,https://www.nationwide.com,business,master,no,link,business_link.csv
+Scenario 13,https://www.nationwide.com,personal/insurance/claims,master,no,link,claimPage_link.csv
+Scenario 14,https://www.nationwide.com,sem/brand-b3-pey.html,master,no,link,semSmoke_link.csv
+Scenario 15,https://www.nationwide.com,lc/resources/powersports/,master,no,link,powerSports_link.csv
+Scenario 16,https://www.nationwide.com,account-login,master,no,link,accountLogin_link.csv
+Scenario 17,https://www.nationwide.com,bill-pay,master,no,link,billPay_link.csv
+Scenario 18,https://www.nationwide.com,,master,no,link,landingPage_link.csv
+Scenario 19,https://www.nationwide.com,personal/insurance/auto/,master,no,link,personalAuto_link.csv
+Scenario 20,https://www.nationwide.com,,master,no,quote,landingPage_quote.csv
+Scenario 21,https://www.nationwide.com,personal/contact/,master,no,link,contactPage_link.csv
+Scenario 22,https://www.nationwide.com,personal/insurance/auto/,master,no,quote,personalAuto_quote.csv
+Scenario 23,https://www.nationwide.com,,master,no,link,landingPage_header.csv
+Scenario 24, https://www.nationwide.com,,quoteRetrieval,no,link,quoteRetrieval
+Scenario 25, https://www.nationwide.com,,accountLoginPage,no,link,accountLoginPage
+Scenario 26, https://www.nationwide.com,,allProducts,no,link,allProducts
+Scenario 27, https://www.nationwide.com,,billPayPage,no,link,billPayPage
+Scenario 28, https://www.nationwide.com,,brokenLinks_Health,no,link,brokenLinks_Health
+Scenario 29, https://www.nationwide.com,,landingPage,no,link,landingPage
+Scenario 30, https://www.nationwide.com,,nvitMutualFundPage,no,link,nvitMutualFundPage
+Scenario 31, https://www.nationwide.com,,semPage,no,link,semPage

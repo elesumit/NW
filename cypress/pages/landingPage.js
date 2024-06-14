@@ -1,5 +1,11 @@
 class landingPage {
    
+
+  zipCode_landingpage(zip) {
+    return cy.get('//input[@type="tel"]').type(zip);
+    }
+
+
   externalLinks() {     
       
       return cy.xpath('//ul[@slot="external-links"]/li/a');
@@ -46,6 +52,8 @@ class landingPage {
     enterQuoteZip(zip) {     
       return cy.get('[id="detail-banner__zip-input"]').type(zip);
     }
+    
+   
     getQuoteZip() {     
       return cy.get('[id="detail-banner__zip-input"]');
     }

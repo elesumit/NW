@@ -1,0 +1,5 @@
+linkText,expectedText,condition
+Pay now,Welcome to Quick Pay,DirectLink
+Learn more,What type of bill would you like to pay?,DirectLink
+Pay now,Make a payment,DirectLink2
+Learn more,Pay your business insurance or agribusiness bill,DirectLink2

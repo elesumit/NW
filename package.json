@@ -24,6 +24,7 @@
     "cypress": "^12.17.4",
     "cypress-axe": "^1.5.0",
     "cypress-mochawesome-reporter": "^3.8.0",
+    "cypress-plugin-snapshots": "^1.4.4",
     "cypress-xpath": "^2.0.1",
     "neat-csv": "^5.2.0",
     "playwright-webkit": "1.34"

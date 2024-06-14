@@ -4,7 +4,10 @@ const { parseCypressOutput, exportToExcel } = require('./cypressReportUtil');
 const { generateHtmlReport } = require('./reportUtils');
 
 const reportType = process.argv[2] || 'html';
-const cypressCommand = 'npx cypress run --headed --spec "cypress/e2e/POC/*.js" --browser chrome';
+const cypressCommand = 'npx cypress run --headed --spec "cypress/e2e/POC/agribusinessPage.cy.js" --browser chrome';
+
+//const cypressCommand = 'npx cypress run --headless --spec "cypress/e2e/POC/*.js" --browser chrome';
+
 
 exec(cypressCommand, async (error, stdout, stderr) => {
   if (error) {

@@ -1,0 +1,11 @@
+Scenario,execution,type,insuranceType,prop_zipcode,prop_startquote,zipCode,expectedText,linksText,condition
+Validate Quote Retrieval,yes,insurance,Homeowners insurance,homeownersWarning,HomeownersQuoteForm,32771,Find an Agency Near You,,,
+Validate Quote Retrieval,yes,insurance,Renters insurance,rentersWarning,RentersQuoteForm,32771,Find an Agency Near You,,,
+Validate Quote Retrieval,yes,insurance,Auto insurance,autoWarning,AutoQuoteForm,32771,Smart. This is the fast track.,,,
+Validate Quote Retrieval,no,insurance,Life insurance,,,,,Get a No Exam Term Life Insurance Quote,,
+Validate Quote Retrieval,yes,insurance,Condo insurance,condoWarning,CondoQuoteForm,32771,Find an Agency Near You,,,
+Validate Quote Retrieval,yes,insurance,Motorcycle insurance,motorcycleWarning,MotorcycleQuoteForm,32771,We have an insurance partner in your state,,,
+Validate Quote Retrieval,no,insurance,Pet insurance,,,,,Tell us about your pet,,
+Validate Quote Retrieval,yes,insurance,Auto & home bundle,autohomewarning,AutoAndHomeQuoteForm,32771,Smart. This is the fast track.,,,
+Validate Vehicle Auto link,yes,link,,,,,,Auto,Car insurance,DirectLink3
+Validate On Your Side® Review tile link,yes,link,,,,,,On Your Side® Review,Stay protected with Nationwide’s On Your Side® Review,ContainsTextLink

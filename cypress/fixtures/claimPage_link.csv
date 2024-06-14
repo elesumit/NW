@@ -1,0 +1,14 @@
+linkText,expectedText,condition
+File a claim,Filing a claim will be easy!,DirectLink
+File a business insurance claim,What type of business insurance claim do you need to file?,DirectLink
+File a claim now,Filing a claim will be easy!,DirectLink
+Check the status,Track Your Claim,DirectLink
+Auto,Nationwide auto claims,DirectLink3
+Life & Annuity,Life and annuity claims,DirectLink
+Business,What type of business insurance claim do you need to file?,DirectLink
+Boat & Watercraft,If you’re involved in a boating accident:,DirectLink
+Pet,We make it easy to submit your Nationwide pet insurance claim.,DirectLink
+Harleysville,For personal auto or homeowners:,DirectLink
+Claims FAQ,Have a question about Nationwide claims?,ParentLink
+Find a repair shop,Find a repair shop,ParentLink
+Disaster prep,Preparing for a natural disaster,ParentLink

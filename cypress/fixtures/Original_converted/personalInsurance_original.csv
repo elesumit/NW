@@ -1,0 +1,9 @@
+Scenario,execution,insuranceType,prop_zipcode,prop_startquote,zipCode,expected_Result
+Validate Quote Reterival,yes,Homeowners insurance,homeownersWarning,HomeownersQuoteForm,32771,Find an Agency Near You
+Validate Quote Reterival,yes,Renters insurance,rentersWarning,RentersQuoteForm,32771,Find an Agency Near You
+Validate Quote Reterival,yes,Auto insurance,autoWarning,AutoQuoteForm,32771, Smart. This is the fast track.
+Validate Quote Reterival,no,Life insurance,,,,Get a No Exam Term Life Insurance Quote
+Validate Quote Reterival,yes,Condo insurance,condoWarning,CondoQuoteForm,32771,Find an Agency Near You
+Validate Quote Reterival,yes,Motorcycle insurance,motorcycleWarning,MotorcycleQuoteForm,32771,We have an insurance partner in your state
+Validate Quote Reterival,no,Pet insurance,,,,Tell us about your pet.
+Validate Quote Reterival,yes,Auto & home bundle,autohomewarning,AutoAndHomeQuoteForm,32771, Smart. This is the fast track.

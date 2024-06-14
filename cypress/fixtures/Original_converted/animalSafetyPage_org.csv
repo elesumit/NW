@@ -1,0 +1,5 @@
+Scenario,execution,links,expectedtext,newTab,elementText
+Validate Start your quote link,yes,Start your quote,What is your ZIP code?,no,Start your quote
+Validate Nationwide pet insurance link,yes,Get a personalized quote,Pet insurance.,no,Nationwide pet insurance
+Validate get a quote today link,yes,get a quote today,Tell us about your pet.,no,get a quote today
+Validate related topic links,yes,Is hazard insurance the same as homeowners?,Is hazard insurance the same as homeowners insurance?,yes,Is hazard insurance the same as homeowners?

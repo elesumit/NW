@@ -111,6 +111,17 @@ class utils {
       }
     }
 
+function readCsv(){
+
+const neatCsv = require('neat-csv');
+const fs = require('fs');
+
+const readCsv = async (filePath) => {
+    const data = fs.readFileSync(filePath, 'utf8');
+    return neatCsv(data);
+};
+
+}
 
 
   }
