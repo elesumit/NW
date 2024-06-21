@@ -1,0 +1,10 @@
+linkText,expectedText,condition
+Continue a saved quote »,Retrieve a Quote,DirectLink2
+Preparing for an auto quote »,What do I need for an auto insurance quote?,DirectLink
+SmartRide®,Nationwide’s SmartRide program rewards safe driving,DirectLink
+SmartMiles®,Introducing a pay-per-mile car insurance program that could save you money,DirectLink
+Standard & optional coverages,Full coverage insurance,DirectLink
+Get Accident Forgiveness,Accident Forgiveness,DirectLink
+See how you can save,Auto insurance,DirectLink
+SmartRide,Nationwide’s SmartRide program rewards safe driving,ContainsTextLink
+SmartMiles,Introducing a pay-per-mile car insurance program that could save you money,ContainsTextLink

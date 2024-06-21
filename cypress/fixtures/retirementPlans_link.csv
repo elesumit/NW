@@ -1,11 +1,9 @@
-linkText,expectedText,condition
-Enroll in my plan,Sign up for online access,DirectLink
-Sign up, Enter your personal information. ,DirectLink
-Log into your account,Log in to your account,DirectLink
-Financial goals in 2024,Five steps to financial wellness,DirectLink
-yes,Sign up for a webinar,Webinars,DirectLink
-Learn more ,Five steps to financial wellness,DirectLink
-I'm just getting started,Retirement plans,DirectLink
-Learn more ,Five steps to financial wellness,DirectLink
-On-demand webinars,Education on demand,NormalizeTextLink
-Get the iPhone app,This app is available only on the App Store for iPhone and iPad.,DirectLink
+linkText,expectedURL,expectedTitle,condition
+Enroll in my plan,https://customer-login.nationwide.com/registration/search/personal/individual-information,Nationwide Online Account Access | Sign Up For Online Access | Nationwide.com,DirectLink
+Sign up,https://customer-login.nationwide.com/registration/search/personal/individual-information,Nationwide Online Account Access | Sign Up For Online Access | Nationwide.com,DirectLink
+Log into your account,https://www.nationwide.com/my-account-login,Account Login - Personal and Business - Nationwide,DirectLink
+Financial goals in 2024,https://www.nationwide.com/personal/investing/retirement-plans/articles/healthy-savings-habits,Retirement Plans – Ways to build healthy savings habits – Nationwide,DirectLink
+Sign up for a webinar,https://www.nationwide.com/personal/investing/retirement-plans/webinars,Retirement Planning Webinars – Nationwide,DirectLink
+I'm just getting started,https://www.nationwide.com/personal/investing/retirement-plans/getting-started/,Retirement Planning – Just Getting Started – Nationwide,DirectLink
+Learn more ,https://www.nationwide.com/personal/investing/retirement-plans/articles/healthy-savings-habits,Retirement Plans – Ways to build healthy savings habits – Nationwide,DirectLink
+Get the iPhone app,https://apps.apple.com/us/app/realtirement-by-nationwide/id1586385655,REALtirement by Nationwide on the App Store,DirectLink

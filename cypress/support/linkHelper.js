@@ -2,23 +2,23 @@
 
 const pageControllers = require('../../cypress/pages/pageControllers.js');
 
-export function handleLinkValidation(childRows, currentPageUrl) {
-    childRows.forEach((childRow) => {
-       // cy.log(childRow['expectedURL'], childRow['condition']);
+ function handleLinkValidation(childRows, currentPageUrl) {
+   // childRows.forEach((childRows) => {
+       // cy.log(childRows['expectedURL'], childRows['condition']);
 
         // Get the XPath for the given condition and link
-        const xpath = pageControllers.getXPath(childRow['condition'], childRow['linkText']);
+        const xpath = pageControllers.getXPath(childRows['condition'], childRows['linkText']);
 
         // Click the link using the generic click function
         if (xpath) {
             pageControllers.clickLink(xpath);
             cy.wait(2000);
-            //cy.contains(childRow['expectedText']).should('be.visible');
+            //cy.contains(childRows['expectedText']).should('be.visible');
 
             cy.url().then((url) => {
                 cy.title().then((title) => {
-                 if (url==childRow['expectedURL'])
-                  cy.title().should('eq', childRow['expectedTitle']);
+                 if (url==childRows['expectedURL'])
+                  cy.title().should('eq', childRows['expectedTitle']);
 
                 
                  
@@ -27,7 +27,8 @@ export function handleLinkValidation(childRows, currentPageUrl) {
 
             cy.visit(currentPageUrl);
         } else {
-            cy.log(`No matching XPath for condition: ${childRow['condition']}`);
+            cy.log(`No matching XPath for condition: ${childRows['condition']}`);
         }
-    });
+   // });
 }
+module.exports = handleLinkValidation;

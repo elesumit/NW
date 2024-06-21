@@ -1,6 +1,6 @@
-linkText,expectedText,condition
-Learn more,Tech and innovation,DirectLink
-Learn more,New ways to grow ,DirectLink2
-Learn more,Illuminating the path,DirectLink3
-Corporate sustainability,Building tomorrow today,DirectLink
-Our culture,A culture where your,DirectLink
+linkText,expectedURL,expectedTitle,condition
+Learn more,https://www.nationwide.com/cps/annual-report/standout-stories/technology-and-innovation.html,equal housing opportunity insurer logo,DirectLink
+Learn more,https://www.nationwide.com/cps/annual-report/standout-stories/protecting-clients.html,equal housing opportunity insurer logo,DirectLink2
+Learn more,https://www.nationwide.com/cps/annual-report/standout-stories/community-involvement.html,Standout stories — Community involvement — 2023 Nationwide Annual Report,DirectLink3
+Corporate sustainability,https://www.nationwide.com/cps/annual-report/corporate-sustainability.html,Corporate Sustainability — Nationwide 2023 Annual Report,DirectLink
+Our culture,https://www.nationwide.com/cps/annual-report/culture.html,Our culture — 2023 Nationwide Annual Report ,DirectLink

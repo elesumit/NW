@@ -1,6 +1,6 @@
-linkText,expectedText,condition
-find a farm agent,Protect your next,DirectLink
-Get a quote, Smart. This is the fast track. Let’s get started ,DirectLink
-Financial products,Protect your family with solutions from Nationwide,NormalizeTextLink
-Farm succession planning,A holistic approach to financial and legacy planning,NormalizeTextLink
-find a specialist,Making it easier to navigate life,DirectLink
+linkText,expectedURL,expectedTitle,condition
+find a farm agent,https://www.farmagentfinder.com/home/index,Farm Agent Finder - Nationwide Agribusiness,DirectLink
+Get a quote,https://www.nationwide.com/,Insurance and Financial Services Company – Nationwide,DirectLink
+Financial products,https://www.nationwide.com/business/agribusiness/farm-insurance/ag-financial/family-solutions/,Protect your farm family with solutions from Nationwide,NormalizeTextLink
+Farm succession planning,https://www.nationwide.com/business/agribusiness/farm-insurance/ag-financial/,Financial and legacy planning for farmers and ranchers,NormalizeTextLink
+find a specialist,https://www.nationwide.com/d2c/agspecialists,Get help navigating life insurance — Nationwide,DirectLink

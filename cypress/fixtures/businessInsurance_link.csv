@@ -1,17 +1,17 @@
-linkText,expectedText,condition
-Start your quote, Thanks for choosing Nationwide - Start your quote ,DirectLink
-Find a business agent,Find local Nationwide Insurance Agencies near you,DirectLink
-Get a BOP quote,Property insurance. Liability insurance. Business income insurance.,DirectLink
-Start your business liability quote,General liability insurance,DirectLink
-Get a commercial property insurance quote,Protect your business property with commercial property insurance,DirectLink
-Begin your commercial auto insurance quote,What's covered by commercial auto insurance,DirectLink
-Workers' compensation,We know workers’ comp,DirectLink
-Business income,Business income insurance can help pay bills and cover payroll,DirectLink
-Crime insurance,What commercial crime insurance offers,DirectLink
-Employment practices liability,What is general liability insurance?,DirectLink
-Cyber liability,Cyber risk solutions,DirectLink
-Errors and omissions (E&O),What is E&O insurance?,DirectLink
-Equipment breakdown,What is equipment breakdown coverage?,DirectLink
-Umbrella insurance,How commercial umbrella insurance works,DirectLink
-Inland marine,Inland Marine Insurance,DirectLink
-Builder's risk,Additional builder’s risk coverage,DirectLink
+linkText,expectedURL,expectedTitle,condition
+Start your quote,https://nationwidecommercial.boldpenguin.com/nationwide?utm_source=na&utm_medium=na&utm_campaign=na&utm_content=https:%2F%2Fwww.nationwide.com%2Fbusiness%2Finsurance%2F%23,Nationwide Brokerage Insurance Quote,DirectLink
+Find a business agent,https://agency.nationwide.com/,Find Independent Insurance Companies Near You - Nationwide,DirectLink
+Get a BOP quote,https://www.nationwide.com/business/insurance/business-owners-policy-bop/,Business Owners Policy (BOP Insurance) - Nationwide,DirectLink
+Start your business liability quote,https://www.nationwide.com/business/insurance/small-business-liability/,General Liability Insurance – Nationwide,DirectLink
+Get a commercial property insurance quote,https://www.nationwide.com/business/insurance/property/,Commercial Property Insurance - Nationwide,DirectLink
+Begin your commercial auto insurance quote,https://www.nationwide.com/business/insurance/auto/,Commercial Auto Insurance – Request a Quote – Nationwide,DirectLink
+Workers' compensation,https://www.nationwide.com/business/insurance/workers-compensation/,Workers’ Compensation Insurance – Nationwide,DirectLink
+Business income,https://www.nationwide.com/business/insurance/business-income/,Business Income Insurance – Nationwide,DirectLink
+Crime insurance,https://www.nationwide.com/business/insurance/commercial-crime/,Commercial Crime Insurance - Nationwide,DirectLink
+Employment practices liability,https://www.nationwide.com/business/insurance/small-business-liability/,General Liability Insurance – Nationwide,DirectLink
+Cyber liability,https://www.nationwide.com/business/insurance/cyber-liability/,Cyber Liability & Data Breach Insurance – Nationwide,DirectLink
+Errors and omissions (E&O),https://www.nationwide.com/business/insurance/errors-and-omissions/,Errors and Omissions Insurance (E&O) – Nationwide,DirectLink
+Equipment breakdown,https://www.nationwide.com/business/insurance/equipment-breakdown/,Equipment Breakdown Coverage – Nationwide,DirectLink
+Umbrella insurance,https://www.nationwide.com/business/insurance/umbrella-policy/,Commercial Umbrella Liability Insurance from Nationwide,DirectLink
+Inland marine,https://www.nationwide.com/business/insurance/inland-marine/,Inland Marine Insurance – Nationwide,DirectLink
+Builder's risk,https://www.nationwide.com/business/insurance/builders-risk/,Get Builder’s Risk Insurance - Nationwide,DirectLink

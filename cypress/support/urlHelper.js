@@ -1,5 +1,5 @@
 // cypress/support/urlHelper.js
-export function getURL(viewportSetting, environmentURL, extensionURL) {
+function getURL(viewportSetting, environmentURL, extensionURL) {
     cy.log(`Environment URL: ${environmentURL}`);
     cy.log(`Extension URL: ${extensionURL}`);
 
@@ -18,6 +18,6 @@ export function getURL(viewportSetting, environmentURL, extensionURL) {
         // Predefined device name
         cy.viewport(viewportSetting);
     }
-
-    return cy.url();
 }
+
+module.exports = getURL;

@@ -1,0 +1,11 @@
+Scenario,execution,links,expectedtext,condition,elementText
+Validate  Enroll in my plan link,yes,Enroll in my plan,Sign up for online access,DirectLink,Enroll in my plan
+Validate Sign up link,yes,Sign up, Enter your personal information. ,DirectLink,Sign up
+Validate Log into your account link,yes,Log into your account,Log in to your account,DirectLink,Log into your account
+Validate Financial goals in 2024 link,yes,Financial goals in 2024,Five steps to financial wellness,DirectLink,Financial goals in 2024
+Validate Sign up for a webinar link,yes,Sign up for a webinar,Webinars,DirectLink,Sign up for a webinar
+Validate Learn more  link,yes,Learn more ,Five steps to financial wellness,DirectLink,Learn more 
+Validate I'm just getting started link,yes,I'm just getting started,Retirement plans,DirectLink,I'm just getting started
+Validate Learn more  link,yes,Learn more ,Five steps to financial wellness,DirectLink,Learn more 
+Validate On-demand webinars link,yes,On-demand webinars,Education on demand,NormalizeTextLink,On-demand webinars
+Validate Get the iPhone app link,yes,Get the iPhone app,This app is available only on the App Store for iPhone and iPad.,DirectLink,Get the iPhone app

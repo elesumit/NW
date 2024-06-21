@@ -1,0 +1,8 @@
+linkText,expectedText,condition
+Get a quote, Smart. This is the fast track. Let’s get started ,ParentLink
+your agent,Find local Nationwide Insurance Agencies near you,ParentLink
+Miles driven,Miles driven video,ContainsTextLink
+Hard braking,Miles driven video,ContainsTextLink
+Fast Acceleration,Miles driven video,ContainsTextLink
+Nighttime driving,Nighttime driving video,ContainsTextLink
+Learn more,Learn how you may have already earned the SmartRide safe driving discount,DirectLink

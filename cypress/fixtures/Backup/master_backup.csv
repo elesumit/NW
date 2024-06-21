@@ -1,0 +1,24 @@
+Scenario,baseURL,URLextension,specname,execution,objType,childCsvPath
+Scenario 1,UAT,personalInsurance,personalInsurance,yes,quote,personalInsurance_quote.csv
+Scenario 2,UAT,personalInsurance,personalInsurance,yes,link,personalInsurance_link.csv
+Scenario 3,UAT,learningCenter,learningCenter,yes,link,learningCenter_link.csv
+Scenario 4,UAT,agribusiness,agribusiness,yes,link,agribusinessPage_link.csv
+Scenario 5,UAT,animalSafety,sepc 5,yes,link,animalSafetyPage_link.csv
+Scenario 6,UAT,retirementPlans,spec 6,yes,link,retirementPlans_link.csv
+Scenario 7,UAT,smartRide,spec 7,yes,link,smartRide_link.csv
+Scenario 8,UAT,annualReport,spec 8,yes,link,annualReport_link.csv
+Scenario 9,UAT,annuities,spec 9,yes,link,annuities_link.csv
+Scenario 10,PROD,businessInsurance,spec 10,yes,link,businessInsurance_link.csv
+Scenario 11,PROD,fundList,spec 11,yes,link,fundListPage_link.csv
+Scenario 12,PROD,business,spec 12,yes,link,business_link.csv
+Scenario 13,PROD,personalClaims,spec 13,yes,link,claimPage_link.csv
+Scenario 14,PROD,sem,spec 14,yes,link,semSmoke_link.csv
+Scenario 15,PROD,powerSports,spec 15,yes,link,powerSports_link.csv
+Scenario 16,PROD,accLogin,spec 16,yes,link,accountLogin_link.csv
+Scenario 17,PROD,billPay,sepc 17,yes,link,billPay_link.csv
+Scenario 18,PROD,landingPage,spec 18,yes,link,landingPage_link.csv
+Scenario 19,PROD,personalAuto,spec 19,yes,link,personalAuto_link.csv
+Scenario 20,PROD,landingPage,Spec 20,yes,quote,landingPage_quote.csv
+Scenario 21,PROD,contact,spec 21,yes,link,contactPage_link.csv
+Scenario 22,PROD,personalAuto,spec 22,yes,quote,personalAuto_quote.csv
+Scenario 23,PROD,landingPage,spec 23,yes,link,landingPage_header.csv

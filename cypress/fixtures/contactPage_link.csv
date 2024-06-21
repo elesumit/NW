@@ -1,10 +1,10 @@
-linkText,expectedText,condition
-Get help online, Enter Phone Number ,DirectLink
-Text us,Make your life easier by using our text messaging program.,DirectLink
-Call us,Contact us for help with your insurance coverages,DirectLink19
-Email us,Please use this form to email your question to Nationwide or ,DirectLink
-feedback or a complaint,Nationwide stands above our competition for many reasons,DirectLink
-Connect with us,Making your day to day easier,DirectLink
-Explore,we use our sponsorships to create positive interactions with people,DirectLink
-Learn more,What is Nationwide Procurement?,DirectLink
-email us,Popular types of insurance,DirectLink
+linkText,expectedURL,expectedTitle,condition
+Get help online,https://nationwide.rsahelp.com/,Nationwide,DirectLink
+Text us,https://www.nationwide.com/personal/about-us/text-message-notifications,Text Messaging Program – Nationwide,DirectLink
+Call us,https://www.nationwide.com/personal/contact/call-us/,Contact Nationwide: Phone Numbers - Nationwide,DirectLink19
+Email us,https://www.nationwide.com/personal/contact/online-form,Nationwide - Contact Us Online,DirectLink
+feedback or a complaint,https://www.nationwide.com/personal/about-us/customer-advocate/,Customer Relations – Nationwide,DirectLink
+Connect with us,https://www.nationwide.com/personal/contact/third-party/,Third-party Policy Inquiries - Nationwide,DirectLink
+Explore,https://www.nationwide.com/personal/about-us/nationwide-sponsorships/,Nonprofit sponsorships and Events – Nationwide,DirectLink
+Learn more,https://www.nationwide.com/personal/about-us/procurement/,Procurement – Nationwide,DirectLink
+email us,https://www.nationwide.com/personal/contact/online-form,Nationwide - Contact Us Online,DirectLink

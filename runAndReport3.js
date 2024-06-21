@@ -8,27 +8,103 @@ const { generateHtmlReport } = require('./reportUtils');
 const ExcelJS = require('exceljs');
 const { stdout } = require('process');
 //const results = [];
+const { readCsvrows, readCsv } = require('../NWIE CAutomation/cypress/support/util1.js');
 const csvFilePath = path.join(__dirname, 'cypress/fixtures/master.csv');
 
 // Function to read CSV file and get specs with execution status "yes"
+// const getSpecFilesFromCSV = (filePath, callback) => {
+//     const specs = [];
+//     fs.createReadStream(filePath)
+//         .pipe(csv())
+//         .on('data', (row) => {
+//             if (row.execution.toLowerCase() === 'yes') {
+//                 const { baseURL, URLextension, specname, objType, childCsvPath } = row;
+//                 readCsv(`cypress/fixtures/${childCsvPath}`).then((childRows) => {
+//                     childRows.forEach((childRow) => {
+                
+
+//                 const { baseURL, URLextension, specname, objType, childCsvPath } = row;
+//                 specs.push({
+//                     spec: `cypress/e2e/POC1/${specname}.cy.js`,
+//                     childCsvPath: childCsvPath,
+//                     objType: objType,
+//                     URLextension: URLextension,
+//                     baseURL: baseURL
+//                 });
+        
+//             }
+//         })
+        
+//         .on('end', () => {
+//             callback(specs);
+//         });
+        
+// };
+
+// const getSpecFilesFromCSV = (filePath, callback) => {
+//     const specs = [];
+//     fs.createReadStream(filePath)
+//         .pipe(csv())
+//         .on('data', (row) => {
+//             if (row.execution.toLowerCase() === 'yes') {
+//                 const { baseURL, URLextension, specname, objType, childCsvPath } = row;
+//                 readCsv(`cypress/fixtures/${childCsvPath}`).then((childRows) => {
+//                     childRows.forEach((childRow) => {
+//                         specs.push({
+//                             spec: `cypress/e2e/POC1/${childRow.specName}.cy.js`,
+//                             childCsvPath: childCsvPath,
+//                             objType: objType,
+//                             URLextension: URLextension,
+//                             baseURL: baseURL,
+//                        //     childRow: childRow
+//                         });
+//                     });
+                    
+//                 });
+//             }
+//         })
+//         .on('end', () => {
+//             callback(specs);
+//         });
+// };
+
 const getSpecFilesFromCSV = (filePath, callback) => {
     const specs = [];
+    const promises = [];
+
     fs.createReadStream(filePath)
         .pipe(csv())
         .on('data', (row) => {
             if (row.execution.toLowerCase() === 'yes') {
                 const { baseURL, URLextension, specname, objType, childCsvPath } = row;
-                specs.push({
-                    spec: `cypress/e2e/POC1/${specname}.cy.js`,
-                    childCsvPath: childCsvPath,
-                    objType: objType,
-                    URLextension: URLextension,
-                    baseURL: baseURL
+                const promise = readCsv(`cypress/fixtures/${childCsvPath}`).then((childRows) => {
+                    childRows.forEach((childRow) => {
+                        const specPath = `cypress/e2e/POC1/${childRow.specName}.cy.js`;
+                        console.log(`Adding spec: ${specPath}`);
+                        specs.push({
+                            spec: specPath,
+                            childCsvPath: childCsvPath,
+                            objType: objType,
+                            URLextension: URLextension,
+                            baseURL: baseURL,
+                            //childRow: childRow
+                            childRow: JSON.stringify(childRow)
+                        });
+                    });
+                }).catch((error) => {
+                    console.error(`Error reading child CSV: ${error}`);
                 });
+
+                promises.push(promise);
             }
         })
         .on('end', () => {
-            callback(specs);
+            Promise.all(promises).then(() => {
+                callback(specs);
+            }).catch((error) => {
+                console.error(`Error processing CSV rows: ${error}`);
+                callback(specs); // You might want to call callback with empty specs array in case of error
+            });
         });
 };
 
@@ -215,3 +291,4 @@ getSpecFilesFromCSV(csvFilePath, (specFiles) => {
         await generateIndividualHtmlReports(allResults);
     });
 });
+

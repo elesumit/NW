@@ -1,14 +1,13 @@
-linkText,expectedText,condition
-Find an agent,As one of the nation’s largest insurance providers,DirectLink5
-Cheap Boat Insurance,Cheap boat insurance,DirectLink
-How much is sailboat insurance?,How much is sailboat insurance?,DirectLink
-Boat caught in severe weather: What to do,What to do when caught in severe weather while boating,DirectLink
-How much is boat insurance?,How much is boat insurance?,DirectLink
-Do I need boat insurance?,Do I need boat insurance?,DirectLink
-Watercraft insurance considerations,What boat insurance coverages do I need to consider?,DirectLink
-How much is motorcycle insurance?,How much does motorcycle insurance cost?,DirectLink
-Do you need motorcycle insurance?,When do you need motorcycle insurance?,DirectLink
-Can my motorcycle be insured?,Nationwide insures many types of motorcycles,DirectLink
-Prepping for motorcycle group rides,Motorcycle group riding safety tips,DirectLink
-Motorcycle maintenance checklist,8 motorcycle maintenance tasks you should be doing,DirectLink
-How to buy a motorcycle helmet,How to find the right motorcycle helmet for you,DirectLink
+linkText,expectedURL,expectedTitle,condition
+Find an agent,https://agency.nationwide.com/,Find Independent Insurance Companies Near You - Nationwide,DirectLink5
+Cheap Boat Insurance,https://www.nationwide.com/lc/resources/powersports/articles/cheap-boat-insurance,Cheap Boat Insurance - Nationwide,DirectLink
+How much is sailboat insurance?,https://www.nationwide.com/lc/resources/powersports/articles/how-much-does-sailboat-insurance-cost,How much is sailboat insurance? – Nationwide,DirectLink
+Boat caught in severe weather: What to do,https://www.nationwide.com/lc/resources/powersports/articles/boat-in-storm,Boat Caught in Severe Weather: What to Do – Nationwide,DirectLink
+How much is boat insurance?,https://www.nationwide.com/lc/resources/powersports/articles/how-much-is-boat-insurance,How Much Is Boat Insurance? - Nationwide,DirectLink
+Do I need boat insurance?,https://www.nationwide.com/lc/resources/powersports/articles/do-i-need-boat-insurance,Do I Need Boat Insurance - Nationwide,DirectLink
+Watercraft insurance considerations,https://www.nationwide.com/lc/resources/powersports/articles/boat-insurance-considerations,Boat Insurance Considerations and Options - Nationwide,DirectLink
+How much is motorcycle insurance?,https://www.nationwide.com/lc/resources/powersports/articles/how-much-does-motorcycle-insurance-cost,How Much Does Motorcycle Insurance Cost? - Nationwide,DirectLink
+Do you need motorcycle insurance?,https://www.nationwide.com/lc/resources/powersports/articles/do-you-need-motorcycle-insurance,Do You Need Motorcycle Insurance? - Nationwide,DirectLink
+Prepping for motorcycle group rides,https://www.nationwide.com/lc/resources/powersports/articles/7-safety-tips-for-motorcycle-group-riding,7 Safety Tips for Motorcycle Group Riding - Nationwide,DirectLink
+Motorcycle maintenance checklist,https://www.nationwide.com/lc/resources/powersports/articles/motorcycle-maintenance-checklist,Motorcycle Maintenance Checklist - Nationwide,DirectLink
+How to buy a motorcycle helmet,https://www.nationwide.com/lc/resources/powersports/articles/used-motorcycle-buying-guide,Guide for Buying a Used Motorcycle - Nationwide,DirectLink

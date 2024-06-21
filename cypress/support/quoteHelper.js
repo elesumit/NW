@@ -1,25 +1,26 @@
 // cypress/support/quoteHelper.js
 const pageControllers = require('../../cypress/pages/pageControllers.js');
 
-export function handleQuote(childRows, currentPageUrl) {
-    childRows.forEach((childRow) => {
-        cy.log(childRow['productType'], childRow['zipCode']);
+ function handleQuote(childRows, currentPageUrl) {
+   // childRows.forEach((childRows) => {
+        cy.log(childRows['productType'], childRows['zipCode']);
 
-        const zip = pageControllers.getZipCode(childRow['pageName'], childRow['zipElement']);
-        const quote = pageControllers.getQuote(childRow['getQuoteButtonReference'], childRow['quoteButton']);
-        const dropdownMenu = childRow['dropdownMenu'];
+        const zip = pageControllers.getZipCode(childRows['pageName'], childRows['zipElement']);
+        const quote = pageControllers.getQuote(childRows['getQuoteButtonReference'], childRows['quoteButton']);
+        const dropdownMenu = childRows['dropdownMenu'];
 
-        pageControllers.selectDropdownOption(dropdownMenu, childRow['insuranceType']);
+        pageControllers.selectDropdownOption(dropdownMenu, childRows['insuranceType']);
 
-        if (childRow['zipCode'] !== '' && childRow['zipCode'] !== undefined) {
-            pageControllers.enterZip(zip, childRow['zipCode']);
+        if (childRows['zipCode'] !== '' && childRows['zipCode'] !== undefined) {
+            pageControllers.enterZip(zip, childRows['zipCode']);
             pageControllers.clickQuote(quote);
-            pageControllers.validatePageText(childRow['expectedText']);
+            pageControllers.validatePageText(childRows['expectedText']);
             cy.visit(currentPageUrl);
         } else {
             pageControllers.clickQuote(quote);
-            pageControllers.validatePageText(childRow['expectedText']);
+            pageControllers.validatePageText(childRows['expectedText']);
             cy.visit(currentPageUrl);
         }
-    });
+   // });
 }
+module.exports = handleQuote;

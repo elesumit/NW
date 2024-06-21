@@ -1,5 +1,5 @@
 Scenario,baseURL,URLextension,specname,execution,objType,childCsvPath
-Scenario 1,https://www.nationwide.com,personal/insurance/,master,yes,quote,personalInsurance_quote.csv
+Scenario 1,https://www.nationwide.com,personal/insurance/,master,no,quote,personalInsurance_quote.csv
 Scenario 2,https://www.nationwide.com,personal/insurance/,master,yes,link,personalInsurance_link.csv
 Scenario 3,https://www.nationwide.com,lc/resources/,master,no,link,learningCenter_link.csv
 Scenario 4,https://www.nationwide.com,business/agribusiness/farm-bureau/delaware.html,master,no,link,agribusinessPage_link.csv

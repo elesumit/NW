@@ -1,0 +1,5 @@
+linkText,expectedText,condition
+Start your quote,What is your ZIP code?,DirectLink
+Nationwide pet insurance,Customize your pet insurance policy to find the best coverage for your monthly budget.,DirectLink
+get a quote today,Tell us about your pet.,DirectLink
+Is hazard insurance the same as homeowners?,Is hazard insurance the same as homeowners insurance?,ParentLink

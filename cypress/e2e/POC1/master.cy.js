@@ -1,8 +1,9 @@
 const { readCsv } = require('../../support/util1.js');
 const config = require('../../../config.json');
-import { getURL } from '../../support/urlHelper';
-import { handleQuote } from '../../support/quoteHelper';
-import { handleLinkValidation } from '../../support/linkHelper';
+
+const getURL = require('../../support/urlHelper.js');
+const handleQuote = require('../../support/quoteHelper.js');
+const handleLinkValidation = require('../../support/linkHelper.js');
 
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
@@ -20,18 +21,25 @@ Object.entries(config.viewPorts).forEach(([viewportName, viewportSetting]) => {
             const extensionURL = Cypress.env('URLextension');
             const childCsvPath = Cypress.env('childCsvPath');
             const objType = Cypress.env('objType');
+            const childRowEnv = Cypress.env('childRow');
+            
+            if (childRowEnv) {
+                const decodedChildRowEnv = decodeURIComponent(childRowEnv); // Decode the childRow
+                const childRow = JSON.parse(decodedChildRowEnv); // Parse the childRow
+                console.log('Parsed childRow:', childRow);
 
-            getURL(viewportSetting, environmentURL, extensionURL).then((currentPageUrl) => {
-                readCsv(`cypress/fixtures/${childCsvPath}`).then((childRows) => {
+                getURL(viewportSetting, environmentURL, extensionURL);
+
+                cy.url().then((currentPageUrl) => {
                     if (objType.includes('quote')) {
-                        handleQuote(childRows, currentPageUrl);
+                        handleQuote(childRow, currentPageUrl);
                     } else if (objType.includes('link')) {
-                        handleLinkValidation(childRows, currentPageUrl);
+                        handleLinkValidation(childRow, currentPageUrl);
                     }
-                }).catch((error) => {
-                    console.error(`Error reading child CSV: ${error}`);
                 });
-            });
+            } else {
+                console.error('childRow environment variable is not set or is undefined.');
+            }
         });
     });
 });

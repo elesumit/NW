@@ -1,14 +1,14 @@
-linkText,expectedText,condition
-File a claim,Filing a claim will be easy!,DirectLink
-File a business insurance claim,What type of business insurance claim do you need to file?,DirectLink
-File a claim now,Filing a claim will be easy!,DirectLink
-Check the status,Track Your Claim,DirectLink
-Auto,Nationwide auto claims,DirectLink3
-Life & Annuity,Life and annuity claims,DirectLink
-Business,What type of business insurance claim do you need to file?,DirectLink
-Boat & Watercraft,If you’re involved in a boating accident:,DirectLink
-Pet,We make it easy to submit your Nationwide pet insurance claim.,DirectLink
-Harleysville,For personal auto or homeowners:,DirectLink
-Claims FAQ,Have a question about Nationwide claims?,ParentLink
-Find a repair shop,Find a repair shop,ParentLink
-Disaster prep,Preparing for a natural disaster,ParentLink
+linkText,expectedURL,expectedTitle,condition
+File a claim,https://claimsservicing.nationwide.com/fileclaim/info/claim-process-intro,Introduction,DirectLink
+File a business insurance claim,https://www.nationwide.com/business/insurance/claims/,Business Insurance Claims Center – Nationwide,DirectLink
+File a claim now,https://claimsservicing.nationwide.com/fileclaim/info/claim-process-intro,Introduction,DirectLink
+Check the status,https://claimsselfservice.nationwide.com/claims/index.html#/express-login,Track Your Claim,DirectLink
+Auto,https://www.nationwide.com/personal/insurance/claims/auto/,File an Auto Insurance Claim – Nationwide,DirectLink3
+Life & Annuity,https://www.nationwide.com/personal/insurance/claims/life/,File Annuity and Life Insurance Claims – Nationwide,DirectLink
+Business,https://www.nationwide.com/business/insurance/claims/,Business Insurance Claims Center – Nationwide,DirectLink
+Boat & Watercraft,https://www.nationwide.com/personal/insurance/claims/boat/,File a Boat Insurance Claim – Nationwide,DirectLink
+Pet,https://www.petinsurance.com/submit-claim/?_gl=1*1nrc86i*_gcl_au*MTI2NTA3NDkwMC4xNzE4MzM2MzI4LjE3MDc1Mjc3Ny4xNzE4NDI4NDY0LjE3MTg0Mjg0NjQ.*_ga*MTM3ODk0NTYyNy4xNzE4MzM2MzI3*_ga_GLJSQEPWL4*MTcxODQzNDM0NS43LjEuMTcxODQzNzE2MS4zNS4wLjA.,Nationwide® Pet Insurance | Submit a Claim & Find Forms in 3 Steps,DirectLink
+Harleysville,https://www.nationwide.com/personal/insurance/claims/harleysville/,File a Harleysville Insurance Claim – Nationwide,DirectLink
+Claims FAQ,https://www.nationwide.com/personal/insurance/claims/faq/,Insurance Claims FAQ – Nationwide,ParentLink
+Find a repair shop,https://claimsservicing.nationwide.com/find-repair-shop,Find Repair Shop,ParentLink
+Disaster prep,https://www.nationwide.com/lc/resources/emergency-preparedness/,Preparing for a natural disaster – Nationwide,ParentLink

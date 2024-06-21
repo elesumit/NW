@@ -1,0 +1,5 @@
+execution,insuranceType,prop_zipcode,prop_startquote,zipCode,expected_Result
+yes,Auto insurance,AutoQuoteForm,AutoQuoteForm,32771,Smart. This is the fast track.
+no,Classic car insurance,,,,
+no,RV insurance,,,,
+yes,Auto & home bundle,AutoAndHomeQuoteForm,AutoAndHomeQuoteForm,32771,Smart. This is the fast track.

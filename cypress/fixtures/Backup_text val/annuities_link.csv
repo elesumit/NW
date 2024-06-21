@@ -1,0 +1,12 @@
+linkText,expectedText,condition
+log in,Login for Insurance & Investments,DirectLink
+talk to a specialist,Find a financial specialist,DirectLink
+Variable,Variable annuities,ContainsTextLink
+Registered index-linked,Registered index-linked annuities,ContainsTextLink
+Fixed indexed,Fixed indexed annuities,TextLink
+Fixed,Fixed annuities,TextLink
+Immediate,Immediate annuities,ContainsTextLink
+Access your annuity,Login for Insurance & Investments,DirectLink
+See benefits of online access,Make retirement easier with online account access,DirectLink
+What is an annuity?,Discover the value of annuities - an introduction,ParentLink2
+What do annuities cost?,What do annuities cost?,ParentLink2

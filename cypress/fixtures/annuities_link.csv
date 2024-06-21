@@ -1,12 +1,14 @@
-linkText,expectedText,condition
-log in,Login for Insurance & Investments,DirectLink
-talk to a specialist,Find a financial specialist,DirectLink
-Variable,Variable annuities,ContainsTextLink
-Registered index-linked,Registered index-linked annuities,ContainsTextLink
-Fixed indexed,Fixed indexed annuities,TextLink
-Fixed,Fixed annuities,TextLink
-Immediate,Immediate annuities,ContainsTextLink
-Access your annuity,Login for Insurance & Investments,DirectLink
-See benefits of online access,Make retirement easier with online account access,DirectLink
-What is an annuity?,Discover the value of annuities - an introduction,ParentLink2
-What do annuities cost?,What do annuities cost?,ParentLink2
+linkText,expectedURL,expectedTitle,condition
+log in,https://www.nationwide.com/my-account-login,Account Login - Personal and Business - Nationwide,DirectLink
+talk to a specialist,https://www.nationwide.com/personal/investing/find-financial-professional/,Find a Financial Specialist – Nationwide,DirectLink
+Variable,https://www.nationwide.com/personal/investing/annuities/variable/,Variable Annuities – Nationwide,ContainsTextLink
+Registered index-linked,https://www.nationwide.com/personal/investing/annuities/registered-index-linked/,Registered Index-Linked Annuities – Nationwide,ContainsTextLink
+Fixed indexed,https://www.nationwide.com/personal/investing/annuities/fixed-indexed/,Fixed Indexed Annuities – Nationwide,TextLink
+Fixed,https://www.nationwide.com/personal/investing/annuities/fixed/,Fixed Annuities – Nationwide,TextLink
+Immediate,https://www.nationwide.com/personal/investing/annuities/immediate/,Immediate Annuities – Nationwide,ContainsTextLink
+Access your annuity,https://login.nationwide.com/access/web/login.htm?loginType=annuity,
+
+Login for Insurance & Investments |  Nationwide.com ,DirectLink
+See benefits of online access,https://www.nationwide.com/personal/investing/annuities/online-access-benefits/,Online Annuity Account Access – Nationwide,DirectLink
+What is an annuity?,https://www.nationwide.com/lc/resources/investing-and-retirement/articles/what-is-an-annuity,What is an Annuity? - Nationwide,DirectLink
+What do annuities cost?,https://www.nationwide.com/lc/resources/investing-and-retirement/articles/annuity-prices,How Much Does an Annuity Cost? - Nationwide,ParentLink2

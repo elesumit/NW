@@ -1,0 +1,3 @@
+Scenario,execution,links,expectedtext,newTab,elementText
+Validate Corporate sustainability link,yes,Corporate sustainability,Building tomorrow today,no,Corporate sustainability
+Validate Our culture link,yes,Our culture,A culture where your,no,Our culture

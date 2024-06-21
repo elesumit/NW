@@ -1,5 +1,5 @@
-linkText,expectedText,condition
-Pay now,Welcome to Quick Pay,DirectLink
-Learn more,What type of bill would you like to pay?,DirectLink
-Pay now,Make a payment,DirectLink2
-Learn more,Pay your business insurance or agribusiness bill,DirectLink2
+linkText,expectedURL,expectedTitle,condition
+Pay now,https://myservicing.nationwide.com/#/personal/quickpay/search,Pay Your Bill Online with Quick Pay – Nationwide,DirectLink
+Learn more,https://www.nationwide.com/personal/member-services/pay-bill,Pay Personal Insurance Bills Online  – Nationwide,DirectLink
+Pay now,https://commercialservicing.nationwide.com/commercial/#/quickPay/search,Commercial Self Service,DirectLink2
+Learn more,https://www.nationwide.com/business/pay-bill,Pay Your Nationwide Commercial Bills – Nationwide,DirectLink2

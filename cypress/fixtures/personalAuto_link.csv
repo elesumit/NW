@@ -1,10 +1,10 @@
-linkText,expectedText,condition
-Continue a saved quote »,Retrieve a Quote,DirectLink2
-Preparing for an auto quote »,What do I need for an auto insurance quote?,DirectLink
-SmartRide®,Nationwide’s SmartRide program rewards safe driving,DirectLink
-SmartMiles®,Introducing a pay-per-mile car insurance program that could save you money,DirectLink
-Standard & optional coverages,Full coverage insurance,DirectLink
-Get Accident Forgiveness,Accident Forgiveness,DirectLink
-See how you can save,Auto insurance,DirectLink
-SmartRide,Nationwide’s SmartRide program rewards safe driving,ContainsTextLink
-SmartMiles,Introducing a pay-per-mile car insurance program that could save you money,ContainsTextLink
+linkText,expectedURL,expectedTitle,condition
+Continue a saved quote »,https://www.nationwide.com/,Insurance and Financial Services Company – Nationwide,DirectLink2
+Preparing for an auto quote »,https://www.nationwide.com/lc/resources/auto-insurance/articles/what-you-need-for-a-quote,What You Need for a Car Insurance Quote – Nationwide ,DirectLink
+SmartRide®,https://www.nationwide.com/personal/insurance/auto/discounts/smartride/,SmartRide – Nationwide,DirectLink
+SmartMiles®,https://www.nationwide.com/personal/insurance/auto/discounts/smartmiles/,Pay-Per-Mile Car Insurance with SmartMiles - Nationwide,DirectLink
+Standard & optional coverages,https://www.nationwide.com/personal/insurance/auto/coverages/,Full Coverage Insurance – Nationwide,DirectLink
+Get Accident Forgiveness,https://www.nationwide.com/personal/insurance/auto/coverages/types/accident-forgiveness,Accident Forgiveness – Nationwide,DirectLink
+See how you can save,https://www.nationwide.com/personal/insurance/auto/discounts/,Affordable Car Insurance & Discounts from Nationwide,DirectLink
+SmartRide,https://www.nationwide.com/personal/insurance/auto/discounts/smartride/,SmartRide – Nationwide,ContainsTextLink
+SmartMiles,https://www.nationwide.com/personal/insurance/auto/discounts/smartmiles/,Pay-Per-Mile Car Insurance with SmartMiles - Nationwide,ContainsTextLink
